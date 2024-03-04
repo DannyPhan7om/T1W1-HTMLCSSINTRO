@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-size: 2rem;
+    max-height: 200px;
+}
+
+em > strong > p{
+    font-size: 5px;
+}
+
+img {
+    width: 100vw;
+    max-width: 10%;
+    height: 10%;
+}
+
+li {color: tan;
+}
+li:nth-child(3n) {
+    background-color: darkseagreen;
+}
+
+li:nth-child(even) {
+    background-color: beige;
+}
+
+li::marker {
+    color: springgreen;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h3 {
+    color: red;
+    background-color:rgb(62, 149, 179);
+}
+
+#bananas {color: hotpink;
+}
+
+.coolclass {color: aquamarine;
+}
+
+h1 {
+    color: blue;
+    background-color: green;
+}
+h1 {color:#000000;
+}
+

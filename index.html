@@ -4,20 +4,54 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
+        <!-- Style Tag or internal styling
+                <style>
+            h3 {
+                color: crimson;
+            }
+        </style> -->
+
+        <!-- External stylesheet, needs to exist in project as a file -->
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
+        <!-- Inline styling  -->
+        <!-- <h1 style="color: blue;">Ben was here!</h1> -->
+        <!-- Code runs on specificity, inline will override tags -->
+        <!-- <h3 style="color: blueviolet;">Ben was here but smaller!</h3> -->
         <h1>Ben was here!</h1>
+        <h3 class="coolclass">Ben was here but smaller!</h3>
+        <h3 class="coolclass">Ben was here but smaller!</h3>
+        <h3 class="coolclass">Ben was here but smaller!</h3>
         <h3>Ben was here but smaller!</h3>
+        <h3 id="bananas">Ben was here but in a different color!</h3>
         <p>
             <b>Lorem ipsum </b>dolor sit amet, <strong>consectetur adipisicing elit.</strong> Incidunt ab <i>placeat illo </i> porro aperiam eaque mollitia fugiat amet ipsa <em>nisi illum facilis corporis dolorum ullam ipsam earum id, natus</em> voluptate.
         </p>
         <em>
             <strong>
-                <p>
+                <p class="coolclass">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, aspernatur neque! Nam enim tempora magni maxime repudiandae sequi corrupti illum recusandae! Nostrum architecto placeat error labore veritatis dolore debitis aliquid.
                 </p>
             </strong>
         </em>
         <img src="./Cowboy.jpg" alt="This image failed to load"/>
+        <ul>
+            <li>Pizza
+
+            </li>
+            <li>Pasta
+
+            </li>
+            <li>Nuggets
+
+            </li>
+            <li>Potato
+
+            </li>
+            <li>Maccaroni
+                
+            </li>
+        </ul>
     </body>
 </html>
